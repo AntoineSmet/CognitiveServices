@@ -8,9 +8,8 @@ using Microsoft.CognitiveServices.Speech.Audio;
 class Program 
 {
     // This example requires environment variables named "SPEECH_KEY" and "SPEECH_REGION"
-    static string speechKey = "key";
-    static string speechRegion = "region (ex : westeurope )";
-    
+    string subscriptionKey = "key";
+    string region = "region (ex : westeurope) ";
 
     async static Task Main(string[] args)
     {
@@ -22,13 +21,11 @@ class Program
         using (var speechSynthesizer = new SpeechSynthesizer(speechConfig))
         {
             // Get text from the console and synthesize to the default speaker.
-            Console.WriteLine("Enter some text that you want to speak >");
+            Console.WriteLine("Entrez votre texte ");
             string text = Console.ReadLine();
             var speechSynthesisResult = await speechSynthesizer.SpeakTextAsync(text);
             
         }
 
-        Console.WriteLine("Press any key to exit...");
-        Console.ReadKey();
     }
 }
