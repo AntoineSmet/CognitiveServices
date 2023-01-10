@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "m/7z+b/9a2KtskDXMCLLC3F6kAyeo5NcT+G9Nb/qHo+1/ucKWC5byQwmmjaRxtBaTqfdYmCUiKsQg7PCoyVIhw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\antoi\\OneDrive\\Bureau\\Workshop AI\\Speech\\Bacchus\\Bacchus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\antoi\\.nuget\\packages\\microsoft.cognitiveservices.speech\\1.24.2\\microsoft.cognitiveservices.speech.1.24.2.nupkg.sha512"
+  ],
+  "logs": []
+}

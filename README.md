@@ -6,6 +6,8 @@
 
 [Reconnaissance vocale](https://azure.microsoft.com/fr-fr/products/cognitive-services/speech-to-text/)
 
+Apollon
+
 Transcrivez le discours audible en texte lisible et interrogeable.
 
 [Synthèse vocale](https://azure.microsoft.com/fr-fr/products/cognitive-services/text-to-speech/)
@@ -28,9 +30,6 @@ Identifiez et vérifiez les personnes qui parlent en fonction de l’audio.
 ## Décision 🌲
 
 ## OpenAi 🧠
-
-![Raccoon Azure](https://cloudblogs.microsoft.com/industry-blog/wp-content/uploads/sites/22/2020/03/BingMapsBanner-1024x373.webp)
-
 
 ## 🔗 Links
 [Cognitive Services](https://azure.microsoft.com/fr-fr/products/cognitive-services/#overview)
