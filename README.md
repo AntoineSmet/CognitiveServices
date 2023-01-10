@@ -4,13 +4,11 @@
 
 ## Speech 🗣️
 
-[Reconnaissance vocale](https://azure.microsoft.com/fr-fr/products/cognitive-services/speech-to-text/)
-
-Apollon
+[Reconnaissance vocale](https://azure.microsoft.com/fr-fr/products/cognitive-services/speech-to-text/) 📁 Apollon
 
 Transcrivez le discours audible en texte lisible et interrogeable.
 
-[Synthèse vocale](https://azure.microsoft.com/fr-fr/products/cognitive-services/text-to-speech/)
+[Synthèse vocale](https://azure.microsoft.com/fr-fr/products/cognitive-services/text-to-speech/) 📁 Bacchus
 
 Convertissez le texte en langage réaliste pour des interfaces plus naturelles.
 
@@ -32,6 +30,5 @@ Identifiez et vérifiez les personnes qui parlent en fonction de l’audio.
 ## OpenAi 🧠
 
 ## 🔗 Links
-[Cognitive Services](https://azure.microsoft.com/fr-fr/products/cognitive-services/#overview)
+[OverView](https://azure.microsoft.com/fr-fr/products/cognitive-services/#overview)
 
-# CognitiveServices
