@@ -10,8 +10,8 @@ namespace AzureSpeechToText
         static async Task Main(string[] args)
         {
             // subscription key and region
-            string subscriptionKey = "dd567e777529473290923551b85d8773";
-            string region = "westeurope";
+            string subscriptionKey = "key";
+            string region = "region (ex : westeurope) ";
 
             var configuration = SpeechConfig.FromSubscription(subscriptionKey, region);
 

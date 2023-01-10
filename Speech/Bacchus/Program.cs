@@ -4,11 +4,12 @@ using System.Threading.Tasks;
 using Microsoft.CognitiveServices.Speech;
 using Microsoft.CognitiveServices.Speech.Audio;
 
+//dotnet add package Microsoft.CognitiveServices.Speech
 class Program 
 {
     // This example requires environment variables named "SPEECH_KEY" and "SPEECH_REGION"
-    static string speechKey = "dd567e777529473290923551b85d8773";
-    static string speechRegion = "westeurope";
+    static string speechKey = "key";
+    static string speechRegion = "region (ex : westeurope )";
     
 
     async static Task Main(string[] args)
