@@ -29,6 +29,11 @@ Identifiez et vérifiez les personnes qui parlent en fonction de l’audio.
 
 ## OpenAi 🧠
 
+[Génerateur de texte](https://chat.openai.com/chat) 📁 Alpha
+
+[Génerateur d'image](https://openai.com/dall-e-2/) 📁 Bravo
+
+
 ## 🔗 Links
 [OverView](https://azure.microsoft.com/fr-fr/products/cognitive-services/#overview)
 
