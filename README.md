@@ -23,6 +23,24 @@ Identifiez et vérifiez les personnes qui parlent en fonction de l’audio.
 
 ## Langage 👅
 
+Reconnaissance d’entité 📁 Albanie
+Identifiez les termes couramment utilisés et spécifiques au domaine.
+
+Analyse de sentiments 📁 Belgique
+Détectez automatiquement des sentiments et des opinions à partir de texte. 
+
+Réponse aux questions 📁 Canada
+Créez une couche de questions et réponses conversationnelle sur vos données.
+
+Comprehension du langage 📁 
+Intégrez la compréhension du langage naturel dans des applications, bots et appareils IoT.
+
+Traducteur 📁
+Détectez et traduisez plus de 100 langues et dialectes pris en charge.
+
+
+
+
 ## Vision 👀
 
 ## Décision 🌲
