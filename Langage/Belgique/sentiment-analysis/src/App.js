@@ -13,6 +13,13 @@ function App() {
   const [showResults, setShowResults] = React.useState(false)
 
 
+  const mystyle = {
+    background: '#fefefe',
+    fontfamily: 'Bebas Neue',
+    color:'#0f2832',
+    textAlign:'center'
+  };
+
   const onClick = () => setShowResults(true)
 
   const handleChange = (event) => {
@@ -43,29 +50,21 @@ function App() {
   };
 
   return (
-    <div>
-        <h1>Sentiment Analysis</h1>
+  <div style={mystyle}>
+        <h1 style={{marginBottom: '5%'}} >Sentiment Analysis</h1>
         <form onSubmit={handleSubmit}>
-        <TextField onChange={handleChange} value={text} fullWidth label="Votre texte sera analysé ici"/>
-          <Button type="submit" variant="contained">
+        <TextField style={{width: '80%'}}onChange={handleChange} value={text} label="Insérez votre texte"/><br></br>
+          <Button style={{marginTop: '5%'}} type="submit" variant="contained">
             Valider
           </Button>
         </form>
-
+        
       {sentiment && <p>Sentiment: {sentiment}</p>}
 
       <div>
-      <input type="submit" value="Show more" onClick={onClick} />
+      <input style={{marginTop: '2%',border:'none', color:'grey', backgroundColor:'#fefefe'}} type="submit" value="... voir plus" onClick={onClick} />
       { showResults ? <Results /> : null }
       </div>
-
-
-  
-
-
-
-
-  
   </div>
   );
 
