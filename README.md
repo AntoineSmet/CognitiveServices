@@ -16,7 +16,7 @@ Convertissez le texte en langage réaliste pour des interfaces plus naturelles.
 
 Intégrez la traduction vocale en temps réel à vos applications.
 
-[Reconnaissance de l’orateur](https://azure.microsoft.com/fr-fr/products/cognitive-services/speaker-recognition/)  🕸️ [Cognitve Sample] (https://github.com/Azure-Samples/cognitive-services-speech-sdk/tree/master/samples)  
+[Reconnaissance de l’orateur](https://azure.microsoft.com/fr-fr/products/cognitive-services/speaker-recognition/)  🕸️ [Cognitve Sample](https://github.com/Azure-Samples/cognitive-services-speech-sdk/tree/master/samples)  
 
 Identifiez et vérifiez les personnes qui parlent en fonction de l’audio.
 
