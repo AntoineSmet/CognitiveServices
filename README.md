@@ -49,10 +49,9 @@ Détectez et traduisez plus de 100 langues et dialectes pris en charge.
 
 ## OpenAi 🧠
 
-[Génerateur de texte](https://chat.openai.com/chat) 📁 Alpha
+[Génerateur d'image](https://platform.openai.com/docs/guides/images/introduction) 📁 Alpha
 
-[Génerateur d'image](https://openai.com/dall-e-2/) 📁 Bravo
-
+[Génerateur de texte](https://chat.openai.com/chat) 📁 Bravo
 
 ## 🔗 Links
 [OverView](https://azure.microsoft.com/fr-fr/products/cognitive-services/#overview)
