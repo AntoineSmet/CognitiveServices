@@ -7,7 +7,7 @@ using Microsoft.CognitiveServices.Speech.Translation;
 
 class Program 
 {
-    // This example requires environment variables named "SPEECH_KEY" and "SPEECH_REGION"
+    // Config
     string subscriptionKey = "key";
     string region = "region (ex : westeurope) ";
 

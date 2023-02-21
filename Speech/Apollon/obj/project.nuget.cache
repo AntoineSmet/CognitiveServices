@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w8zvXMYOpGviPgJq7Xm8hMQwR2BTapYgDmk4XlnNI06MdHZVYH+E0T4bUa/VI5IBshI7aJC0f1esm4B5ij3K7g==",
+  "dgSpecHash": "JtaXZIol7v7I7Kc5GhIJx0PDzH/N7Vtq2OkuUProrbPPjO3OOWvdRdzsbK6FroOPfmV90ZZjE7T6ToSebMzyJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\antoi\\OneDrive\\Bureau\\Workshop AI\\Speech\\Apollon\\Apollon.csproj",
+  "projectFilePath": "C:\\Users\\antoi\\OneDrive\\Bureau\\Project\\Personnal\\CognitiveServices\\Speech\\Apollon\\Apollon.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\antoi\\.nuget\\packages\\microsoft.cognitiveservices.speech\\1.24.2\\microsoft.cognitiveservices.speech.1.24.2.nupkg.sha512"
   ],

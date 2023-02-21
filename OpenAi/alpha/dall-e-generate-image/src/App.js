@@ -31,11 +31,8 @@ function App() {
     setImagehid(false);
     setResult(response.data.data[0].url)
     console.log(response.data.data[0].url);
-    
-
   };
   return (
-  
     <div className="App">
       <Box hidden={isLoading} 
          sx={{ width: '100%',
@@ -45,9 +42,9 @@ function App() {
       <h1 sx={{marginBottom: '5%'}}>Generateur d'image</h1>
       <TextField  style={{width: '80%',marginTop: '3%',}} id="filled-basic" label="Votre texte" variant="filled" className='app-input'
         onChange={(e) => setPrompt(e.target.value)}/>
-        <br></br>
+        <br/>
       <Button sx={{marginTop: '3%', backgroundColor: '#683bdb' }} variant="contained" size="medium" onClick={generateImage}>Generation de l'image</Button>
-      <Box hidden={imagehid}>      
+      <Box hidden={imagehid}> 
       <footer>
        <img className="result-image" src={result} /> 
      </footer>

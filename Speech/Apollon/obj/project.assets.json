@@ -5,10 +5,14 @@
       "Microsoft.CognitiveServices.Speech/1.24.2": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {}
+          "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {}
+          "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "build/Microsoft.CognitiveServices.Speech.props": {}
@@ -596,30 +600,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\antoi\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\antoi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\antoi\\OneDrive\\Bureau\\Workshop AI\\Speech\\Apollon\\Apollon.csproj",
+      "projectUniqueName": "C:\\Users\\antoi\\OneDrive\\Bureau\\Project\\Personnal\\CognitiveServices\\Speech\\Apollon\\Apollon.csproj",
       "projectName": "Apollon",
-      "projectPath": "C:\\Users\\antoi\\OneDrive\\Bureau\\Workshop AI\\Speech\\Apollon\\Apollon.csproj",
+      "projectPath": "C:\\Users\\antoi\\OneDrive\\Bureau\\Project\\Personnal\\CognitiveServices\\Speech\\Apollon\\Apollon.csproj",
       "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\antoi\\OneDrive\\Bureau\\Workshop AI\\Speech\\Apollon\\obj\\",
+      "outputPath": "C:\\Users\\antoi\\OneDrive\\Bureau\\Project\\Personnal\\CognitiveServices\\Speech\\Apollon\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\antoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\antoi\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -649,7 +647,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -658,7 +657,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }
