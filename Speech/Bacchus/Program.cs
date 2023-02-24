@@ -8,12 +8,13 @@ using Microsoft.CognitiveServices.Speech.Audio;
 class Program 
 {
     // Config
-    string subscriptionKey = "key";
-    string region = "region (ex : westeurope) ";
+
 
     async static Task Main(string[] args)
     {
-        var speechConfig = SpeechConfig.FromSubscription(speechKey, speechRegion);      
+        string subscriptionKey = "key";
+        string region = "region (ex : westeurope) ";
+        var speechConfig = SpeechConfig.FromSubscription(subscriptionKey, region);      
         speechConfig.SpeechSynthesisVoiceName = "en-US-JennyNeural"; 
         using (var speechSynthesizer = new SpeechSynthesizer(speechConfig))
         {

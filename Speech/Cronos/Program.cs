@@ -8,8 +8,6 @@ using Microsoft.CognitiveServices.Speech.Translation;
 class Program 
 {
     // Config
-    string subscriptionKey = "key";
-    string region = "region (ex : westeurope) ";
 
     static void OutputSpeechRecognitionResult(TranslationRecognitionResult translationRecognitionResult)
     {
@@ -29,7 +27,10 @@ class Program
 
     async static Task Main(string[] args)
     {
-        var speechTranslationConfig = SpeechTranslationConfig.FromSubscription(speechKey, speechRegion);        
+        
+        string subscriptionKey = "key";
+        string region = "region (ex : westeurope) ";
+        var speechTranslationConfig = SpeechTranslationConfig.FromSubscription(subscriptionKey, region);        
         speechTranslationConfig.SpeechRecognitionLanguage = "fr-FR";
         speechTranslationConfig.AddTargetLanguage("en");
 

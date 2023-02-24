@@ -34,13 +34,8 @@ function App () {
     const key = '**';
     const endpoint = '***';
     const url = `${endpoint}text/analytics/v3.0/entities/recognition/general?showStats=true`;
-
-
-
-
     const headers = { 'Ocp-Apim-Subscription-Key': key };
     const data = { documents: [{ id: '1', text: inputText }] };
-
 
     try {
       const res = await axios.post(url, data, { headers });
